@@ -2,8 +2,8 @@
 require_once 'vendor/autoload.php';
 
 // init configuration
-$clientID = '876137107218-j455p5hhhb5pe6g0f5g3f7nvrlr7bns5.apps.googleusercontent.com';
-$clientSecret = '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';
+$clientID = 'client id';
+$clientSecret = 'client secret';
 $redirectUri = 'http://localhost/OnlineLearningPlatform/google-login.php';
 
 // create Client Request to access Google API
