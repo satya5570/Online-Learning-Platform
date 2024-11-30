@@ -1,0 +1,18 @@
+{
+  "name": "satya/online-learning-platform",
+  "autoload": {
+    "psr-4": {
+      "Satya\\OnlineLearningPlatform\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "satya5570",
+      "email": "satyanarayanasatapathy27@gmail.com"
+    }
+  ],
+  "require": {
+    "google/apiclient": "2.0",
+    "guzzlehttp/guzzle": "^6.2"
+  }
+}
