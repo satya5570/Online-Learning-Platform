@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #4a90e2;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .nav {
+  display: flex;
+  align-items: center;
+}
+
+header .nav p {
+  margin: 0;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  background: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+header a:hover {
+  background: #555;
+}
+
+.section {
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  margin: 0;
+  padding: 15px;
+  background: #4a90e2;
+  color: white;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.card button {
+  margin: 10px;
+  padding: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background: #4a90e2;
+}
+
+a {
+  text-decoration: none;
+}
